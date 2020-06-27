@@ -11,4 +11,5 @@ then
 else
   echo "Container exists: $CONTAINER_EXISTS"
   docker start $CONTAINER
+  docker logs $CONTAINER
 fi
